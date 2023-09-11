@@ -1,0 +1,508 @@
+.container {
+  background-color: #42263d;
+  border-radius: 25px;
+  max-width: 900px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 5rem;
+}
+
+.left-side-hero {
+  flex: 75%;
+  color: white;
+}
+
+.left-side-hero p {
+  font-size: 35px;
+  color: white;
+}
+
+.left-side-hero span {
+  font-weight: bold;
+}
+
+.left-side-hero .btn {
+  color: white;
+  font-size: medium;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  background-color: #fe5960;
+}
+
+.left-side-hero > a {
+  color: aliceblue;
+}
+
+.left-side-hero .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left-side-hero .feature-item {
+  margin-right: 5px;
+  display: flex;
+  flex: 80%;
+  align-items: center;
+  font-size: 10px;
+  font-style: normal;
+}
+
+mat-icon {
+  font-size: 20px;
+}
+.right-side {
+  flex: 1;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.right-side img {
+  width: 450px;
+  justify-content: end;
+  border-radius: 15px;
+  position: relative;
+  bottom: 43px;
+  right: 10px;
+}
+/*/////////////////////////////*/
+
+.container2 {
+  background-color: #ffffff;
+  border-radius: 25px;
+  max-width: 938px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 85px;
+}
+
+.left-side2 {
+  flex: 1;
+  background-image: url("../../assets/23.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  border-top-left-radius: 25px; /* Adjust the radius as needed */
+  border-bottom-left-radius: 25px; /* Adjust the radius as needed */
+  overflow: hidden; /* Ensure the image does not overflow the container */
+}
+
+.right-side2 {
+  flex: 1;
+  color: black;
+  padding-left: 20px;
+}
+
+.right-side2 h5 {
+  font-size: 24px;
+}
+
+.right-side2 p {
+  font-size: 16px;
+}
+
+.right-side2 .btn2 {
+  color: white;
+  font-size: medium;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  background-color: #fe5960;
+}
+
+/*///////////////////////*/
+
+.container3 {
+  border-radius: 25px;
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+
+.left-side3 {
+  flex: 1;
+  padding-right: 36px;
+}
+
+.left-side3 h5 {
+  font-size: 24px;
+  color: black;
+}
+.left-side3 h4 {
+  font-size: 24px;
+  color: black;
+  font-weight: 800;
+}
+
+.left-side3 p {
+  font-size: 16px;
+  margin-bottom: -30px;
+  color: black;
+}
+
+.left-side3 .btn3 {
+  color: white;
+  font-size: medium;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  background-color: #fe5960;
+}
+
+.left-side3 img {
+  max-width: 35%;
+  position: relative;
+  top: 45px;
+  left: 120px;
+  z-index: 1;
+}
+
+.left-side3 .features3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  justify-content: center;
+  color: black;
+  height: 210px;
+  border-radius: 15px;
+}
+
+.left-side3 .feature-item3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.feature-item3 > span {
+  color: white;
+  background-color: #fe5960;
+  padding: 5px 15px 5px 15px;
+  margin-left: 5px;
+}
+
+.left-side3 mat-icon {
+  margin-right: 10px;
+}
+
+.link {
+  color: #fe5960;
+  font-weight: 500;
+}
+
+.right-side3 {
+  flex: 1;
+  text-align: center;
+}
+
+.right-side3 h5 {
+  font-size: 24px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.right-side3 .payment-group {
+  margin-top: 20px;
+}
+
+.right-side3 .payment-container {
+  text-align: start;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 35px;
+  border-radius: 15px;
+  color: black;
+  /* Add space between each set of duplicated content */
+}
+
+.payment-container mat-icon {
+  font-size: 25px;
+  position: relative;
+  right: 50px;
+  top: -30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+.right-side3 p {
+  font-size: 16px;
+  margin-top: -25px;
+}
+
+/*///////////////*/
+
+#image-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: -60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  align-content: center;
+}
+
+#image:last-child {
+  margin-right: 0;
+}
+
+#image > img {
+  padding: 15px 0 0 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*///////////////*/
+.centered-container {
+  background-color: rgb(255, 255, 255); /* Background color */
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  margin-top: 85px;
+  margin-bottom: -35px;
+}
+
+/* CSS styles for the image */
+.centered-container img {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  padding-top: 40px;
+}
+
+/* CSS styles for the h3 tag */
+.centered-container h3 {
+  font-size: 24px;
+  margin: 20px 0; /* Add margin above and below the heading */
+}
+
+/* CSS styles for the paragraph */
+.centered-container p {
+  font-size: 16px;
+  margin: 10px 0; /* Add margin above and below the paragraph */
+}
+
+/* CSS styles for the button */
+.centered-container button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*////////////////////*/
+
+.main-container {
+  background-color: #fdfdfd;
+  border-radius: 25px;
+  max-width: 900px;
+  height: 300px;
+  margin: 20px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  margin-top: 50px;
+  color: white;
+  overflow: hidden; /* Ensure the background image doesn't overflow */
+}
+
+/* CSS styles for the left side */
+.left-side {
+  color: black;
+  flex: 75%;
+  padding: 20px;
+  text-align: start;
+}
+
+/* CSS styles for the h5 tag */
+.left-side h5 {
+  font-size: 24px;
+}
+
+/* CSS styles for the paragraph */
+.left-side p {
+  font-size: 16px;
+  margin-bottom: 20px; /* Add margin below the paragraph */
+}
+
+/* CSS styles for the button */
+.left-side button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content{
+  padding-top: 85px;
+}
+/* CSS styles for the right side (background image) */
+.right-side-img {
+  flex: 35%;
+  background-image: url("../../assets/24.png");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  border-top-right-radius: 25px; /* Adjust the radius as needed */
+  border-bottom-right-radius: 25px; /* Adjust the radius as needed */
+  overflow: hidden;
+}
+.left-side-img {
+  flex: 35%;
+  background-image: url("../../assets/25.png");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  overflow: hidden;
+}
+
+/*/////////////*/
+
+.background-container {
+  background-image: url("../../assets/5.png"); /* Replace with your background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  margin-top: -50px;
+  z-index: -1;
+}
+
+/* CSS styles for the section */
+.section-container {
+  padding: 60px 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+/* CSS styles for the images */
+.section-container img {
+  position: relative;
+  height: auto;
+}
+
+/* CSS styles for the h4 tag */
+.section-container h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* CSS styles for the paragraph */
+.section-container p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* CSS styles for the button */
+.section-container button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CSS styles for the full-width image */
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+/*///////////*/
+
+.cta-container {
+  display: flex;
+  background-color: #42263d;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px auto;
+}
+
+/* CSS styles for the h5 tag */
+.cta-container h5 {
+  font-size: 17px;
+  margin-right: 10px;
+  flex: 20%;
+  align-items: center;
+  padding-top: 17px;
+  color: white;
+}
+
+/* CSS styles for the input labels */
+.input-label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* CSS styles for the input fields and icons */
+.input-icon {
+  display: flex;
+  align-items: center;
+}
+
+
+.input-icon input {
+  flex: 1;
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 25px;
+}
+
+/* CSS styles for the button */
+.cta-container button {
+  flex: 1;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

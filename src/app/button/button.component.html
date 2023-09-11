@@ -1,0 +1,14 @@
+<button
+  class="custom-button"
+  [ngClass]="{ primary: type === 'primary', secondary: type === 'secondary' }"
+  [style.background-color]="color"
+  [style.padding]="padding"
+  [ngStyle]="{
+    'font-size': size === 'small' ? '14px' : size === 'large' ? '24px' : '18px',
+    'border-radius': borderRadius,
+    'font-style': fontStyle
+  }"
+>
+
+  {{ buttonText }}
+</button>
